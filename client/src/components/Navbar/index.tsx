@@ -2,7 +2,7 @@ import React from "react";
 import { Search, Settings, Menu, Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import { useAppDispatch, useAppSelector } from "@/app/redux";
-import { setIsDarkMode, setIsSidebarCollapsed } from "@/app/state";
+import { setIsDarkMode, setIsSidebarCollapsed } from "../../state/index";
 
 type Props = {};
 
