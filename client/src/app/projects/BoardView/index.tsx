@@ -101,11 +101,13 @@ const TaskColumn = ({
           <div className="flex items-center gap-1">
             <button className="flex h-6 w-5 items-center justify-center dark:text-neutral-500">
               <EllipsisVertical size={26} />
+              <span className="sr-only">Toggle sidebar</span>
             </button>
             <button
               className="flex h-6 w-6 items-center justify-center rounded bg-gray-200 dark:bg-dark-tertiary dark:text-white"
               onClick={() => setIsModalNewTaskOpen(true)}
             >
+              <span className="sr-only">Toggle sidebar</span>
               <Plus size={16} />
             </button>
           </div>
@@ -199,6 +201,7 @@ const Task = ({ task }: TaskProps) => {
           </div>
           <button className="flex h-6 w-4 flex-shrink-0 items-center justify-center dark:text-neutral-500">
             <EllipsisVertical size={26} />
+            <span className="sr-only">Toggle sidebar</span>
           </button>
         </div>
 
