@@ -43,7 +43,6 @@ const CardExpenseSummary = () => {
   );
   const formattedTotalExpenses = totalExpenses.toFixed(2);
 
-  console.log("Raw Expense Data:", expenseByCategorySummary);
 
   return (
     <div className="row-span-3 bg-white shadow-md rounded-2xl flex flex-col justify-between">
