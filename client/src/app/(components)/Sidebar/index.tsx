@@ -81,7 +81,12 @@ const Sidebar = () => {
         }`}
       >
         <div>
-          <Image src="/logoipsum-361.svg" alt="logo" />
+          <Image
+            src="https://s3-inventory-management-navi.s3.us-east-1.amazonaws.com/assets/logoipsum-361.svg"
+            alt="logo"
+            width={30}
+            height={30}
+          />
         </div>
         <h1
           className={`${
