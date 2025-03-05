@@ -80,7 +80,9 @@ const Sidebar = () => {
           isSidebarCollapsed ? "px-5" : "px-8"
         }`}
       >
-        <div>logo</div>
+        <div>
+          <img src="/logoipsum-361.svg" alt="logo" />
+        </div>
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
@@ -140,7 +142,9 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2025 InventStock</p>
+        <p className="text-center text-xs text-gray-500">
+          &copy; 2025 InventStock
+        </p>
       </div>
     </div>
   );
