@@ -2,6 +2,7 @@
 
 import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsSidebarCollapsed } from "../../state";
+import Image from "next/image";
 import {
   Archive,
   CircleDollarSign,
@@ -12,7 +13,6 @@ import {
   SlidersHorizontal,
   User,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -81,7 +81,7 @@ const Sidebar = () => {
         }`}
       >
         <div>
-          <img src="/logoipsum-361.svg" alt="logo" />
+          <Image src="/logoipsum-361.svg" alt="logo" />
         </div>
         <h1
           className={`${

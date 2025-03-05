@@ -5,8 +5,6 @@ import Navbar from "./(components)/Navbar";
 import Sidebar from "./(components)/Sidebar";
 import StoreProvider, { useAppSelector } from "./redux";
 
-type Props = {};
-
 const DashBoardLayout = ({ children }: { children: React.ReactNode }) => {
 
   const isDarkMode = useAppSelector((state) => state.global.IsDarkMode)
