@@ -23,20 +23,18 @@ A full-stack inventory management system for seamless stock tracking and managem
 
 🏗️ AWS Architecture
 
-## Project Overview
-This project aims to classify images of different hair diseases using a CNN model. The model leverages advanced image processing techniques and multiple data augmentation methods to enhance the classification accuracy. It is trained and evaluated on a custom dataset containing labeled images of various hair diseases.
+## 🛠️ Tech Stack
+Frontend: React, Tailwind CSS
+Backend: Node.js, Express.js
+Database: Amazon RDS (PostgreSQL/MySQL)
+Authentication: JWT (JSON Web Token)
+Storage: Amazon S3 (for product images)
+API Gateway: AWS API Gateway
+Hosting & Deployment:
 
-
-## Project Overview
-This project aims to classify images of different hair diseases using a CNN model. The model leverages advanced image processing techniques and multiple data augmentation methods to enhance the classification accuracy. It is trained and evaluated on a custom dataset containing labeled images of various hair diseases.
-
-## Technologies Used
-Python 3.x: The programming language used for the project.
-TensorFlow/Keras: Framework for building and training the deep learning model.
-OpenCV: Image processing library used for preprocessing, including denoising and CLAHE.
-NumPy: For handling array manipulations.
-Matplotlib: For plotting training and validation metrics.
-Scikit-learn: For one-hot encoding the labels.
+Frontend: AWS Amplify
+Backend: Amazon EC2
+Database: Amazon RDS
 
 
 ### AWS Architecture
