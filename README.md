@@ -24,13 +24,13 @@ A full-stack inventory management system for seamless stock tracking and managem
 🏗️ AWS Architecture
 
 ## 🛠️ Tech Stack
-Frontend: React, Tailwind CSS
-Backend: Node.js, Express.js
-Database: Amazon RDS (PostgreSQL/MySQL)
-Authentication: JWT (JSON Web Token)
-Storage: Amazon S3 (for product images)
-API Gateway: AWS API Gateway
-Hosting & Deployment:
+- Frontend: React, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: Amazon RDS (PostgreSQL/MySQL)
+- Authentication: JWT (JSON Web Token)
+- Storage: Amazon S3 (for product images)
+- API Gateway: AWS API Gateway
+- Hosting & Deployment:
 
 Frontend: AWS Amplify
 Backend: Amazon EC2
