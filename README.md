@@ -32,9 +32,9 @@ A full-stack inventory management system for seamless stock tracking and managem
 - API Gateway: AWS API Gateway
 - Hosting & Deployment:
 
-Frontend: AWS Amplify
-Backend: Amazon EC2
-Database: Amazon RDS
+- Frontend: AWS Amplify
+- Backend: Amazon EC2
+- Database: Amazon RDS
 
 
 ### AWS Architecture
