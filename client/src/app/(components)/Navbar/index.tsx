@@ -81,7 +81,7 @@ const Navbar = () => {
               className="rounded-full h-full object-cover"
             />
 
-            <div className="font-semibold">Sathvika</div>
+            <div className="font-semibold">Naveen</div>
           </div>
         </div>
         <Link href="/settings">
